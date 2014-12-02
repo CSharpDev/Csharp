@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Wrox.ProCSharp.Delegates
+namespace AnonymousMethods
 {
     class Program
     {
         static void Main()
         {
-            string mid = ", middle part,";
+            const string mid = ", middle part,";
 
             Func<string, string> anonDel = delegate(string param)
             {

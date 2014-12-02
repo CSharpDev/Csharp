@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wrox.ProCSharp.Delegates
+namespace LambdaExpressions
 {
     class Program
     {
