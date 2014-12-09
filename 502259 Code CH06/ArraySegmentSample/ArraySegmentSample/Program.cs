@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace ArraySegmentSample
 {
@@ -11,7 +8,7 @@ namespace ArraySegmentSample
         {
             int[] ar1 = { 1, 4, 5, 11, 13, 18 };
             int[] ar2 = { 3, 4, 5, 18, 21, 27, 33 };
-            var segments = new ArraySegment<int>[2] 
+            var segments = new ArraySegment<int>[] 
             { 
                 new ArraySegment<int>(ar1, 0, 3), 
                 new ArraySegment<int>(ar2, 3, 3)

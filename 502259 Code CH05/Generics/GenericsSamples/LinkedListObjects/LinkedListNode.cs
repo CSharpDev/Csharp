@@ -1,5 +1,5 @@
 ﻿
-namespace Wrox.ProCSharp.Generics
+namespace LinkedListObjects
 {
     public class LinkedListNode
     {

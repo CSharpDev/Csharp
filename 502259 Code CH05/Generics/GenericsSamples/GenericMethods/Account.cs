@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wrox.ProCSharp.Generics
+namespace GenericMethods
 {
     public interface IAccount
     {
@@ -16,8 +16,8 @@ namespace Wrox.ProCSharp.Generics
 
         public Account(string name, Decimal balance)
         {
-            this.Name = name;
-            this.Balance = balance;
+            Name = name;
+            Balance = balance;
         }
     }
 

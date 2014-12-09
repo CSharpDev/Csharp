@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wrox.ProCSharp.Generics
+namespace Specialization
 {
 
     public class MethodOverloads

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Wrox.ProCSharp.Generics
+namespace LinkedListObjects
 {
     public class LinkedList : IEnumerable
     {

@@ -18,33 +18,33 @@ namespace MulticastDelegateWithIteration
 
         static void Main()
         {
-            //Action d1 = One;
-            //d1 += Two;
-
-            //try
-            //{
-            //    d1();
-            //}
-            //catch (Exception)
-            //{
-            //    Console.WriteLine("Exception caught");
-            //}
-
             Action d1 = One;
             d1 += Two;
 
-            Delegate[] delegates = d1.GetInvocationList();
-            foreach (Action d in delegates)
+            try
             {
-                try
-                {
-                    d();
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("Exception caught");
-                }
+                d1();
             }
+            catch (Exception)
+            {
+                Console.WriteLine("Exception caught");
+            }
+
+            //Action d1 = One;
+            //d1 += Two;
+
+            //Delegate[] delegates = d1.GetInvocationList();
+            //foreach (Action d in delegates)
+            //{
+            //    try
+            //    {
+            //        d();
+            //    }
+            //    catch (Exception)
+            //    {
+            //        Console.WriteLine("Exception caught");
+            //    }
+            //}
 
             Console.ReadKey();
         }

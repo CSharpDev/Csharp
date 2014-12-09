@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using Wrox.ProCSharp.Arrays;
 
-namespace Wrox.ProCSharp.Arrays
+namespace Sample1
 {
     class Program
     {

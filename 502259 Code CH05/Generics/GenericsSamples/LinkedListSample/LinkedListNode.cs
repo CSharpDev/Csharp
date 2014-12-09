@@ -1,11 +1,11 @@
 ﻿
-namespace Wrox.ProCSharp.Generics
+namespace LinkedListSample
 {
     public class LinkedListNode<T>
    {
       public LinkedListNode(T value)
       {
-         this.Value = value;
+         Value = value;
       }
    
       public T Value { get; private set; }

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace Wrox.ProCSharp.Generics
+namespace LinkedListSample
 {
     public class LinkedList<T> : IEnumerable<T>
     {

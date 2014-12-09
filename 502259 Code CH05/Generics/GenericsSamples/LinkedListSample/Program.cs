@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wrox.ProCSharp.Generics
+namespace LinkedListSample
 {
     class Program
     {

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace SimpleCurrency
 {
@@ -9,13 +6,13 @@ namespace SimpleCurrency
     {
            struct Currency
            {
-              public uint Dollars;
-              public ushort Cents;
+              public readonly uint Dollars;
+              public readonly ushort Cents;
               
               public Currency(uint dollars, ushort cents)
               {
-                 this.Dollars = dollars;
-                 this.Cents = cents;
+                 Dollars = dollars;
+                 Cents = cents;
               }
               
               public override string ToString()
